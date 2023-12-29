@@ -350,6 +350,8 @@ tfoot td{
 }
 
 @media (max-width: 800px){
+
+
     .intro-content, .grid{
         grid-template-columns: 1fr;
     }
@@ -415,4 +417,26 @@ tfoot td{
     .menu-spacing{
         display: none;
     }
+
+    h1{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    
+    h2{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+        text-transform: uppercase;
+    }
+
+    .grid-one{
+        padding: 2rem;
+    }
+
+
+    .intro-content{
+        padding: 2rem;
+    }
+
+
 }
